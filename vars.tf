@@ -16,7 +16,7 @@ variable "key_name" {
 
 # Defining Region
 variable "aws_region" {
-  default = "us-east-1"
+  default = "us-west-2"
 }
 
 # Defining CIDR Block for VPC
@@ -38,7 +38,7 @@ variable "subnet1_cidr" {
 variable "ami" {
   default = {
     eu-west-1 = "ami-04b1c88a6bbd48f8e"
-    us-east-1 = "ami-04a0ae173da5807d3"
+    us-west-2 = "ami-080f7286ffdf988ee"
   }
 }
 
