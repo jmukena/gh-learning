@@ -1,7 +1,7 @@
-/* # Defining Public Key
+# Defining Public Key
 variable "public_key" {
   default = "terraform_keypair"
-} */
+}
 
 # Defining Private Key
 variable "private_key" {
