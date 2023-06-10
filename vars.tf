@@ -14,10 +14,7 @@ variable "key_name" {
   description = "Desired name of AWS key pair"
 }
 
-# Defining Region
-variable "aws_region" {
-  default = "us-west-2"
-}
+
 
 # Defining CIDR Block for VPC
 variable "vpc_cidr" {
