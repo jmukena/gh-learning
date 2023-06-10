@@ -1,3 +1,8 @@
+# Defining Region
+variable "aws_region" {
+  default = "us-east-1"
+}
+
 # Defining Public Key
 variable "key_public" {
   default = "terraform_keypair"
