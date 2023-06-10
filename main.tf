@@ -133,7 +133,7 @@ resource "aws_key_pair" "demokey" {
 resource "aws_instance" "demoinstance" {
 
   # AMI based on region 
-  ami = lookup(var.ami, var.aws_region)
+  ami = var.ami
 
   # Launching instance into subnet 
   subnet_id = aws_subnet.demosubnet.id
