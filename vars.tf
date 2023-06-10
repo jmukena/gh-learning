@@ -35,7 +35,7 @@ variable "subnet1_cidr" {
 variable "ami" {
   default = {
     eu-west-1 = "ami-04b1c88a6bbd48f8e"
-    us-west-2 = "ami-080f7286ffdf988ee"
+    us-east-1 = "ami-04a0ae173da5807d3"
   }
 }
 
