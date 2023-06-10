@@ -1,6 +1,6 @@
 /* # Defining Public Key
 variable "public_key" {
-  default = "tests.pub"
+  default = "terraform_keypair"
 } */
 
 # Defining Private Key
