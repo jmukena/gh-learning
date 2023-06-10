@@ -1,5 +1,5 @@
 # Defining Public Key
-variable "public_key" {
+variable "key_public" {
   default = "terraform_keypair"
 }
 
